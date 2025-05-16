@@ -2,17 +2,17 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-beseng-navy text-white pt-16 pb-8">
+    <footer className="bg-beseng-navy text-white md:pt-16  pb-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           <div className="">
-            <div className="bg-white/90 p-4 rounded-xl text-black flex gap-3">
+            <div className="bg-none md:bg-white/90  p-4 rounded-xl text-black flex lg:flex-row flex-col gap-3">
               <img
                 src="https://0x9xypt1ix.ufs.sh/f/t4K2Ge5sLyAxbgSNZyWTNs2BRivj9oLa0pCmVYl3WbEMdhF8"
                 alt="Beseng Chillas Logo"
-                className="h-20 mb-6"
+                className="h-auto w-52 mx-auto hidden md:block lg:h-20 mb-6"
               />
-              <p className="mb-6">
+              <p className="mb-6 text-white md:text-black">
                 Experience the perfect combination of delicious food,
                 professional car care, and a relaxing lounge atmosphere all in
                 one location.
