@@ -14,7 +14,7 @@ const Menu = () => {
           <div className="bg-beseng-navy/50 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden flex flex-col h-full">
             <div className="h-64 relative">
               <img 
-                src="/public/lovable-uploads/e14a19d7-00aa-4a22-91cb-f3c97e996280.png" 
+                src="/lovable-uploads/e14a19d7-00aa-4a22-91cb-f3c97e996280.png" 
                 alt="Burger and fries" 
                 className="w-full h-full object-cover"
               />

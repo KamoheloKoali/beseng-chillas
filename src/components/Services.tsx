@@ -43,7 +43,7 @@ const Services = () => {
           <div className="service-card flex flex-col items-center text-center p-6 rounded-lg transition-all duration-300 hover:shadow-lg hover:bg-gray-50">
             <div className="mb-6 w-24 h-24 rounded-full overflow-hidden shadow-md border-2 border-beseng-orange/20">
               <img
-                src="/public/lovable-uploads/5470a350-857c-4923-b706-6e3154c4753d.png"
+                src="/lovable-uploads/5470a350-857c-4923-b706-6e3154c4753d.png"
                 alt="Car Wash Service"
                 className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
               />
