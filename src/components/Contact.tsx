@@ -80,15 +80,15 @@ const Contact = () => {
           </div>
           
           <div className="flex items-center justify-center">
-            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20 w-full max-w-md">
+            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl border border-white/20 w-full max-w-md">
               <div className="flex flex-col items-center">
                 <img 
-                  src="/lovable-uploads/0e64652e-0d42-4e7f-a50a-6773f7240da2.png" 
+                  src="https://0x9xypt1ix.ufs.sh/f/t4K2Ge5sLyAxbgSNZyWTNs2BRivj9oLa0pCmVYl3WbEMdhF8" 
                   alt="Beseng Chillas Logo" 
                   className="w-64 h-auto mb-8"
                 />
                 <h3 className="text-2xl font-bold text-beseng-orange text-center">Beseng Chillas</h3>
-                <p className="text-center mt-4">The best place for food, car wash, and lounge in Lesotho</p>
+                <p className="text-center mt-4 text-black">The best place for food, car wash, and lounge in Lesotho</p>
               </div>
             </div>
           </div>

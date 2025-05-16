@@ -19,7 +19,7 @@ const Index = () => {
       <Services />
       <Menu />
       <Gallery />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
       <ScrollToTop />

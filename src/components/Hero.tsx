@@ -53,11 +53,11 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 relative z-20 text-center text-white">
         <div className="mb-8 flex justify-center animate-fade-in">
-          <img 
-            src="/lovable-uploads/0e64652e-0d42-4e7f-a50a-6773f7240da2.png" 
+          {/* <img 
+            src="https://0x9xypt1ix.ufs.sh/f/t4K2Ge5sLyAxbgSNZyWTNs2BRivj9oLa0pCmVYl3WbEMdhF8" 
             alt="Beseng Chillas Logo" 
             className="h-32 md:h-40 mb-6"
-          />
+          /> */}
         </div>
         <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in">
           Dine. Wash. Relax.
@@ -66,7 +66,7 @@ const Hero = () => {
           Experience the perfect combination of delicious food, professional car care, and a relaxing lounge atmosphere.
         </p>
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 animate-fade-in-slow">
-          <a href="#booking" className="btn-primary">Book Now</a>
+          {/* <a href="#booking" className="btn-primary">Book Now</a> */}
           <a href="#services" className="btn-outline text-white border-white hover:bg-white hover:text-beseng-navy">Explore Services</a>
         </div>
       </div>

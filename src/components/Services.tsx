@@ -1,6 +1,4 @@
 
-import { Car, Utensils, Music } from "lucide-react";
-
 const Services = () => {
   return (
     <section id="services" className="py-16 md:py-24 bg-white">
@@ -12,16 +10,20 @@ const Services = () => {
             Enjoy great food, get your car cleaned, and relax in our lounge atmosphere.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Restaurant Service */}
-          <div className="service-card flex flex-col items-center text-center">
-            <div className="mb-6 w-20 h-20 rounded-full bg-beseng-orange/10 flex items-center justify-center text-beseng-orange">
-              <Utensils size={40} />
+          <div className="service-card flex flex-col items-center text-center p-6 rounded-lg transition-all duration-300 hover:shadow-lg hover:bg-gray-50">
+            <div className="mb-6 w-24 h-24 rounded-full overflow-hidden shadow-md border-2 border-beseng-orange/20">
+            <img
+                src="/images/services/car-wash.png"
+                alt="Car Wash Service"
+                className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+              />
             </div>
             <h3 className="text-2xl font-bold mb-3">Restaurant</h3>
             <p className="mb-6">
-              Experience our delicious menu featuring local favorites and signature dishes. 
+              Experience our delicious menu featuring local favorites and signature dishes.
               From burgers to traditional meals, we have something for every taste bud.
             </p>
             <div className="grid grid-cols-2 gap-4 w-full mt-auto">
@@ -34,17 +36,21 @@ const Services = () => {
                 <p className="text-sm">Peak Hours</p>
               </div>
             </div>
-            <a href="#menu" className="btn-outline mt-6 w-full">View Menu</a>
+            {/* <a href="#menu" className="btn-outline mt-6 w-full">View Menu</a> */}
           </div>
-          
+
           {/* Car Wash Service */}
-          <div className="service-card flex flex-col items-center text-center">
-            <div className="mb-6 w-20 h-20 rounded-full bg-beseng-orange/10 flex items-center justify-center text-beseng-orange">
-              <Car size={40} />
+          <div className="service-card flex flex-col items-center text-center p-6 rounded-lg transition-all duration-300 hover:shadow-lg hover:bg-gray-50">
+            <div className="mb-6 w-24 h-24 rounded-full overflow-hidden shadow-md border-2 border-beseng-orange/20">
+              <img
+                src="/public/lovable-uploads/5470a350-857c-4923-b706-6e3154c4753d.png"
+                alt="Car Wash Service"
+                className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+              />
             </div>
             <h3 className="text-2xl font-bold mb-3">Car Wash</h3>
             <p className="mb-6">
-              While you enjoy your meal, let us take care of your vehicle. 
+              While you enjoy your meal, let us take care of your vehicle.
               Our professional car wash services will make your car look brand new.
             </p>
             <div className="grid grid-cols-2 gap-4 w-full mt-auto">
@@ -57,17 +63,21 @@ const Services = () => {
                 <p className="text-sm">Average Time</p>
               </div>
             </div>
-            <a href="#booking" className="btn-outline mt-6 w-full">Book Wash</a>
+            {/* <a href="#booking" className="btn-outline mt-6 w-full">Book Wash</a> */}
           </div>
-          
+
           {/* Lounge Service */}
-          <div className="service-card flex flex-col items-center text-center">
-            <div className="mb-6 w-20 h-20 rounded-full bg-beseng-orange/10 flex items-center justify-center text-beseng-orange">
-              <Music size={40} />
+          <div className="service-card flex flex-col items-center text-center p-6 rounded-lg transition-all duration-300 hover:shadow-lg hover:bg-gray-50">
+            <div className="mb-6 w-24 h-24 rounded-full overflow-hidden shadow-md border-2 border-beseng-orange/20">
+              <img
+                src="/lovable-uploads/beseng-chillas-lounge-vibe.jpg"
+                alt="Lounge Service"
+                className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+              />
             </div>
             <h3 className="text-2xl font-bold mb-3">Lounge</h3>
             <p className="mb-6">
-              Relax and socialize in our comfortable lounge area. 
+              Relax and socialize in our comfortable lounge area.
               Enjoy drinks, music, and a vibrant atmosphere for the perfect hangout spot.
             </p>
             <div className="grid grid-cols-2 gap-4 w-full mt-auto">
@@ -80,7 +90,7 @@ const Services = () => {
                 <p className="text-sm">Live Events</p>
               </div>
             </div>
-            <a href="#booking" className="btn-outline mt-6 w-full">Reserve Space</a>
+            {/* <a href="#booking" className="btn-outline mt-6 w-full">Reserve Space</a> */}
           </div>
         </div>
       </div>

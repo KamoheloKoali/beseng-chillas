@@ -6,7 +6,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2 flex justify-center">
             <img 
-              src="/lovable-uploads/0e64652e-0d42-4e7f-a50a-6773f7240da2.png" 
+              src="https://0x9xypt1ix.ufs.sh/f/t4K2Ge5sLyAxbgSNZyWTNs2BRivj9oLa0pCmVYl3WbEMdhF8" 
               alt="Beseng Chillas Logo" 
               className="w-2/3 md:w-3/4"
             />

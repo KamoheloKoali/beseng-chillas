@@ -23,7 +23,7 @@ const Navbar = () => {
     <nav 
       className={`fixed w-full z-50 transition-all duration-300 ${
         isScrolled 
-          ? 'bg-white/90 backdrop-blur-sm shadow-md py-2' 
+          ? 'bg-white/90 backdrop-blur-2xl shadow-md py-2' 
           : 'bg-transparent py-4'
       }`}
     >
@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <a href="#" className="font-bold text-2xl text-beseng-orange">
             <img 
-              src="/lovable-uploads/0e64652e-0d42-4e7f-a50a-6773f7240da2.png" 
+              src="https://0x9xypt1ix.ufs.sh/f/t4K2Ge5sLyAxbgSNZyWTNs2BRivj9oLa0pCmVYl3WbEMdhF8" 
               alt="Beseng Chillas Logo" 
               className="h-14 md:h-16" 
             />
@@ -39,12 +39,12 @@ const Navbar = () => {
           
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#about" className="font-medium hover:text-beseng-orange transition-colors">About</a>
-            <a href="#services" className="font-medium hover:text-beseng-orange transition-colors">Services</a>
-            <a href="#menu" className="font-medium hover:text-beseng-orange transition-colors">Menu</a>
-            <a href="#gallery" className="font-medium hover:text-beseng-orange transition-colors">Gallery</a>
-            <a href="#contact" className="font-medium hover:text-beseng-orange transition-colors">Contact</a>
-            <a href="#booking" className="btn-primary">Book Now</a>
+            <a href="#about" className={`font-medium hover:text-beseng-orange transition-colors ${isScrolled ? 'text-black' : 'text-white'} `}>About</a>
+            <a href="#services" className={`font-medium hover:text-beseng-orange transition-colors ${isScrolled ? 'text-black' : 'text-white'}`}>Services</a>
+            <a href="#menu" className={`font-medium hover:text-beseng-orange transition-colors ${isScrolled ? 'text-black' : 'text-white'}`}>Menu</a>
+            <a href="#gallery" className={`font-medium hover:text-beseng-orange transition-colors ${isScrolled ? 'text-black' : 'text-white'}`}>Gallery</a>
+            <a href="#contact" className={`font-medium hover:text-beseng-orange transition-colors ${isScrolled ? 'text-black' : 'text-white'}`}>Contact</a>
+            {/* <a href="#booking" className="btn-primary">Book Now</a> */}
           </div>
           
           {/* Mobile Nav Button */}
@@ -94,13 +94,6 @@ const Navbar = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
-              </a>
-              <a 
-                href="#booking" 
-                className="btn-primary text-center"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Book Now
               </a>
             </div>
           </div>
